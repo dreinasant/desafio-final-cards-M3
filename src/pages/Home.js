@@ -20,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
 export default function Home() {
   return (
     <div>
+      <GlobalStyle/>
         <Header/>
         <Main/>
     </div>

@@ -1,7 +1,6 @@
 import React from "react"
 import styled, { createGlobalStyle } from "styled-components";
 import Background from "../assets/background.jpg";
-import ImgErradicacao from "../assets/img-erradicacao.png"
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -33,19 +32,13 @@ top: 5vw;
 right: 52vw;
 `
 
-//  const Img = styled.img`
-//  width:100%;  
-//  height: 41vw;
-
-// `
-
 
 export default function Heaader(){
     return(
         <Header>
         
             <GlobalStyle/>
-            {/* <Img src={Background} /> */}
+             
             <H1>Sobre o nosso trabalho para alcançar os Objetivos de Desenvolvimento Sustentável em Itatiaia</H1>
 
         </Header>
