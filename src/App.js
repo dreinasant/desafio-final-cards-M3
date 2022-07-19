@@ -1,7 +1,6 @@
 import React from "react"
 import styled, { createGlobalStyle } from "styled-components";
 import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
-import ObjetivosDeDesenvolvimentoSustentavél from "./pages/DesenvolvimentoSustentavel";
 import Home from "./pages/Home";
 import ErradicaçãoDaPobreza from "./pages/Erradicacao";
 import FomeZeroEAgriculturaSustentável from "./pages/FomeZero";
@@ -60,7 +59,6 @@ export default function App(){
 
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/objetivos-de-desenvolvimento-sustentavel" element={<ObjetivosDeDesenvolvimentoSustentavél/>} />
         <Route path="/erradicacao-da-pobreza" element={<ErradicaçãoDaPobreza/>}/>
         <Route path="/fome-zero-e-agricultura-sustentavel" element={<FomeZeroEAgriculturaSustentável/>} />
         <Route path="/saude-e-bem-estar" element={<SaúdeEBemEstar/>} />
