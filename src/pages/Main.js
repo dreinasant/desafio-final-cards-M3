@@ -43,6 +43,7 @@ width: 90%;
 font-family: Roboto, sans-serif;
 font-size: 1em;
 margin: auto;
+background: pink;
 `
 
 const BoxCards = styled.main`
@@ -97,6 +98,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-left: 1vh;
+background: pink;
+width: 60%;
 `;
 
 
@@ -130,6 +133,7 @@ margin-left: 1vh;
 display: flex;
 align-items: center;
 justify-content: center;
+background: pink;
 `;
 
 const ImageFomeZero = styled.img`
@@ -166,6 +170,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-left: 1vh;
+background: pink;
 `;
 
 const ImageBemEstar = styled.img`
@@ -206,6 +211,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-left: 1vh;
+background: pink;
 `;
 
 
@@ -242,9 +248,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-left: 1vh;
+background: pink;
 `;
-
-
 
 
 const ContainCardSix = styled.div`
@@ -278,6 +283,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-left: 1vh;
+background: pink;
 `;
 
 
@@ -293,7 +299,7 @@ export default function Heaader(){
         <Contain>
             <ContainerErradicacao>
       <ParagrafoNumber>1</ParagrafoNumber>
-        <PCardOne>ERRADICAÇÃO <br/>DA POBREZA</PCardOne>
+        <PCardOne>ERRADICAÇÃO DA POBREZA</PCardOne>
         </ContainerErradicacao>
         <BoxImage>
         <ImageErradicacao src={ImgErradicacao} alt="Erradicação da Pobreza"/>

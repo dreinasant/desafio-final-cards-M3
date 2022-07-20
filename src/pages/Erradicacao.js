@@ -38,6 +38,7 @@ font-weight: 300;
 font-size: 6em;
 font-family: 96px "Roboto", sans-serif;
 line-height: 1;
+
 `
 const H1Erradicacao = styled.h1`
 color: white;
