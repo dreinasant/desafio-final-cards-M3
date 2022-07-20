@@ -26,10 +26,19 @@ color: white;
 height: vh;
 width: 40%;
 font-family: Roboto, sans-serif;
-font-size: 2.80em;
+font-size: 2.40em;
 position: absolute;
 top: 5vw;
 right: 52vw;
+
+
+
+text-align:start;
+text-transform: uppercase;
+letter-spacing: 2px;
+text-shadow: 3px 3px #4169E1 ;
+transition: text-shadow 0.1s ease;
+cursor: pointer;
 `
 
 
@@ -39,7 +48,7 @@ export default function Heaader(){
         
             <GlobalStyle/>
              
-            <H1>Sobre o nosso trabalho para alcançar os Objetivos de Desenvolvimento Sustentável em Itatiaia</H1>
+            <H1 className="h1-header" >Sobre o nosso trabalho para alcançar os Objetivos de Desenvolvimento Sustentável em Itatiaia</H1>
 
         </Header>
     )

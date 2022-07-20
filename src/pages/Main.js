@@ -23,6 +23,10 @@ const GlobalStyle = createGlobalStyle`
     
   }
 `
+const BoxGeral = styled.div`
+
+`
+
 const H2 = styled.h2`
 color: black;
 height: 18vh;
@@ -42,12 +46,14 @@ margin: auto;
 `
 
 const BoxCards = styled.main`
-height: 38vh;
-width: 98%;
+height: 40vh;
+width: 100%;
 margin: auto;
 display: flex;
+align-items: center;
 justify-content: space-evenly;
 flex-wrap: wrap;
+
 
 `
 
@@ -277,7 +283,7 @@ margin-left: 1vh;
 
 export default function Heaader(){
     return(
-        <div>
+        <BoxGeral>
             <H2>Os Objetivos de Desenvolvimento Sustentável em Itatiaia, <br/>municipio de São José do Jacuipe BA.</H2>
             <ParagrafoText>Os Objetivos de Desenvolvimento Sustentável são um apelo à ação para acabar com a pobreza, <br/> proteger o meio ambiente e o clima e garantir que as pessoas, em Itatiaia, possam desfrutar de paz <br/> e de prosperidade. Estes são os objetivos para os quais as Nações Unidas estão contribuindo a fim de que <br/> possamos atingir a Agenda 2030 no Brasil.</ParagrafoText>
         <BoxCards>  
@@ -357,7 +363,7 @@ export default function Heaader(){
         </ContainCardSix>
       </CardSix></A>
     </BoxCards>
-        </div>
+        </BoxGeral>
         
     )
 }

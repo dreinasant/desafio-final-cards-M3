@@ -10,6 +10,14 @@ border-radius: 0.25em;
 background: #E5243B;
 border: none;
 box-shadow: 0px 1px 7px black;
+transition: all 0.4s;
+  cursor: pointer;
+
+  
+  &:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+  }
 `;
 
 

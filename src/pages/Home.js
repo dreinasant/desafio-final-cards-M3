@@ -1,7 +1,8 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
 import Header from "./Header";
-import Main from "./Main"
+import Main from "./Main";
+import Foooter from "./Footer";
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -15,14 +16,13 @@ const GlobalStyle = createGlobalStyle`
  `
 
 
-
-
 export default function Home() {
   return (
     <div>
       <GlobalStyle/>
         <Header/>
         <Main/>
+        <Foooter/>
     </div>
   );
 }
