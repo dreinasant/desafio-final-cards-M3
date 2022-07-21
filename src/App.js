@@ -46,6 +46,10 @@ text-align: left;
 
 `
 
+const LinkNone = styled(Link)`
+display: none;
+`
+
 export default function App(){
   return(
     <Router>
@@ -53,6 +57,7 @@ export default function App(){
       <NavHeader>
         <BoxUl>
           <LinkInicio to="/" ><li>Home</li></LinkInicio>
+          <LinkNone to="/erradicacao-da-pobreza" ><li>Erradicação Da Pobreza</li></LinkNone>
           
         </BoxUl>
       </NavHeader>
