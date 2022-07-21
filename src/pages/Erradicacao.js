@@ -13,10 +13,16 @@ border: none;
 display: flex;
 align-items: center;
 justify-content: space-around;
+
 `;
 
 const ImageErradicacao = styled.img`
 width: 50%;
+
+@media(max-width: 730px){
+    width: 20%;
+    margin-right: 4vw;
+  }
 `
 
 const Div = styled.div`
@@ -28,6 +34,9 @@ justify-content: space-between;
 const ContainerInformacoes = styled.div`
 display: flex;
 flex-direction: column;
+@media(max-width: 730px){
+    margin-left: 7vw;
+  }
 `
 const PText = styled.p`
 color: white;
@@ -58,6 +67,10 @@ display: flex;
 align-items: center;
 flex-direction: column;
 margin-left: 8vw;
+
+@media(max-width: 730px){
+    width: 90%;
+  }
 `
 const TextH2 = styled.h2`
 padding: 2vh;

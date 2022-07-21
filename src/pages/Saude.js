@@ -18,6 +18,11 @@ justify-content: space-evenly;
 
 const ImageSaude = styled.img`
 width: 35%;
+
+@media(max-width: 730px){
+    width: 20%;
+    margin-right: 4vw;
+  }
 `
 
 const Div = styled.div`
@@ -29,6 +34,10 @@ justify-content: space-around;
 const ContainerInformacoes = styled.div`
 display: flex;
 flex-direction: column;
+
+@media(max-width: 730px){
+    margin-left: 7vw;
+  }
 `
 const PText = styled.p`
 color: white;
@@ -50,6 +59,10 @@ color: white;
 font-size: 1rem;
 line-height: 1.5rem;
 width: 58%;
+
+@media(max-width: 730px){
+    width: 100%;
+  }
 `
 const BoxObjetivos = styled.div`
 padding: 4vh;
@@ -58,6 +71,10 @@ display: flex;
 align-items: center;
 flex-direction: column;
 margin-left: 8vw;
+
+@media(max-width: 730px){
+    width: 90%;
+  }
 
 `
 const TextH2 = styled.h2`

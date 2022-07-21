@@ -17,7 +17,7 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 width:100%;  
-height: 100vh;
+height:95vh;
 margin: auto;
 `
 
@@ -36,6 +36,14 @@ letter-spacing: 2px;
 text-shadow: 3px 3px #4169E1 ;
 transition: text-shadow 0.1s ease;
 cursor: pointer;
+
+@media(max-width: 805px){
+  font-size: 1em;
+  position: absolute;
+  top: 20vw;
+  right: 45vw;
+  width: 50%;
+  }
 `
 
 

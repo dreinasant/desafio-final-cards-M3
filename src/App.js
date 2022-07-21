@@ -28,6 +28,10 @@ const LinkInicio = styled(Link)`
   &:hover{
     opacity: 0.6;
   }
+  @media(max-width: 630px){
+    display: flex;
+    justify-content: center;
+    }
 `;
 
 const NavHeader = styled.nav`
@@ -36,6 +40,11 @@ const NavHeader = styled.nav`
   font-size: 1rem;
   text-align: left;
 
+  @media(max-width: 700px){
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
   
 `
 const BoxUl = styled.ul`
@@ -43,7 +52,6 @@ font-size: 1em;
 font-weight: bold;
 font-family: normal normal bold 13px/15px Arial;
 text-align: left;
-
 `
 
 const LinkNone = styled(Link)`

@@ -32,6 +32,12 @@ font-family: Roboto, sans-serif;
 font-size: 2em;
 margin: auto;
 
+@media(max-width: 730px){
+  font-size: 1.1em;
+  height: 18vh;
+  margin-bottom: 3vh;
+}
+
 `;
 const ParagrafoText = styled.p`
 color: black;
@@ -41,6 +47,10 @@ font-family: Roboto, sans-serif;
 font-size: 1em;
 margin: auto;
 
+@media(max-width: 650px){
+  font-size: 0.9em;
+  margin-bottom: 17vh;
+}
 `
 
 const BoxCards = styled.main`
@@ -52,7 +62,10 @@ align-items: center;
 justify-content: space-evenly;
 flex-wrap: wrap;
 
-
+@media(max-width: 805px){
+  width: 100%;
+  height: 105vh;
+  }
 `
 
 const Contain = styled.div`
@@ -73,6 +86,10 @@ const ImageErradicacao = styled.img`
 width: 8vw;
 margin-top: 3vh;
 cursor: pointer;
+
+@media(max-width: 655px){
+  width: 85px;
+}
 `
 const A = styled.a`
  list-style: none;
@@ -136,6 +153,9 @@ width: 6vw;
 margin-top: 1vh;
 cursor: pointer;
 
+@media(max-width: 655px){
+  width: 65px;
+}
 `
 
 
@@ -172,6 +192,10 @@ const ImageBemEstar = styled.img`
 width: 7vw;
 margin-top: 2vh;
 cursor: pointer;
+
+@media(max-width: 655px){
+  width: 80px;
+}
 `
 
 
@@ -189,6 +213,10 @@ const ImageEducacao = styled.img`
 width: 7vw;
 margin-top: 1vh;
 cursor: pointer;
+
+@media(max-width: 655px){
+  width: 80px;
+}
 `
 const ParagrafoNumberFour = styled.p`
 font-family: 'Work Sans', sans-serif;
@@ -226,6 +254,10 @@ width: 7vw;
 margin-top: 1vh;
 cursor: pointer;
 margin-right: 4vh;
+
+@media(max-width: 655px){
+  width: 64px;
+}
 `
 const ParagrafoNumberFive = styled.p`
 font-family: 'Work Sans', sans-serif;
@@ -261,6 +293,10 @@ width: 7vw;
 margin-top: 1vh;
 cursor: pointer;
 margin-right: 4vh;
+
+@media(max-width: 655px){
+  width: 65px;
+}
 `
 const ParagrafoNumberSix = styled.p`
 font-family: 'Work Sans', sans-serif;

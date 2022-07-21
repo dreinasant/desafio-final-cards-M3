@@ -25,6 +25,10 @@ const ImageIcon = styled.img`
 width: 4vw;
 padding: 0.5vw;
 border-radius: 50%;
+
+@media(max-width: 655px){
+    width: 25px;
+  }
 `
 
 

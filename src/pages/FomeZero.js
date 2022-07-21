@@ -17,6 +17,11 @@ justify-content: space-evenly;
 
 const ImageFomeZero = styled.img`
 width: 35%;
+
+@media(max-width: 730px){
+    width: 20%;
+    margin-right: 4vw;
+  }
 `
 
 const Div = styled.div`
@@ -28,9 +33,14 @@ justify-content: center;
 const ContainerInformacoes = styled.div`
 display: flex;
 flex-direction: column;
+
+@media(max-width: 730px){
+    margin-left: 7vw;
+  }
 `
 const PText = styled.p`
 color: white;
+
 `
 const PNumberTwo = styled.p`
 color: white;
@@ -43,12 +53,18 @@ const H1FomeZero = styled.h1`
 color: white;
 font-family: "Roboto", sans-serif;
 font-size: 2em;
+
+
 `
 const ParagrafoText = styled.p`
 color: white;
 font-size: 1rem;
 line-height: 1.5rem;
 width: 50%;
+
+@media(max-width: 730px){
+    width: 100%;
+  }
 `
 const BoxObjetivos = styled.div`
 padding: 4vh;
@@ -57,6 +73,10 @@ display: flex;
 align-items: center;
 flex-direction: column;
 margin-left: 8vw;
+
+@media(max-width: 730px){
+    width: 90%;
+  }
 `
 const TextH2 = styled.h2`
 padding: 2vh;
