@@ -289,7 +289,7 @@ export default function Heaader(){
         <BoxCards>  
       <GlobalStyle />
       
-      <A href="https://projeto-objetivos-sustentavel.netlify.app/erradicacao-da-pobreza"><Card>
+      <A href="https://aquamarine-gnome-5a8165/erradicacao-da-pobreza.netlify.app/"><Card>
         <Contain>
             <ContainerErradicacao>
       <ParagrafoNumber>1</ParagrafoNumber>

@@ -23,15 +23,12 @@ margin: auto;
 
 const H1 = styled.h1`
 color: white;
-height: vh;
 width: 40%;
 font-family: Roboto, sans-serif;
 font-size: 2.40em;
 position: absolute;
 top: 5vw;
 right: 52vw;
-
-
 
 text-align:start;
 text-transform: uppercase;

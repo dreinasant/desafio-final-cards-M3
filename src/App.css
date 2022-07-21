@@ -20,14 +20,14 @@ right: 52vw;
 
 
 
-  text-align:start;
-  text-transform: uppercase;
-  color: rgb(237, 145, 229);
+text-align:start;
+text-transform: uppercase;
+color: rgb(237, 145, 229);
  
-  letter-spacing: 5px;
-  text-shadow: 5px 5px purple;
-  transition: text-shadow 0.1s ease;
-  cursor: pointer;
+letter-spacing: 5px;
+text-shadow: 5px 5px purple;
+transition: text-shadow 0.1s ease;
+cursor: pointer;
 }
 .h1-header:hover{
   text-shadow: 10px 10px purple;

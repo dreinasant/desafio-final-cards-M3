@@ -57,7 +57,6 @@ display: flex;
 align-items: center;
 flex-direction: column;
 margin-left: 8vw;
-background: pink;
 `
 const TextH2 = styled.h2`
 padding: 2vh;
