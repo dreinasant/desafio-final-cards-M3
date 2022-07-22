@@ -48,8 +48,8 @@ font-size: 1em;
 margin: auto;
 
 @media(max-width: 770px){
-  font-size: 0.9em;
-  margin-top: 30px;
+  font-size: 0.8em;
+  margin-top: 25px;
 }
 `
 
@@ -63,13 +63,16 @@ justify-content: space-evenly;
 flex-wrap: wrap;
 
 @media(max-width: 805px){
-  width: 100%;
-  height: 105vh;
-  margin-top: 80px;
-  display: flex;
+width: 100%;
+height: 195vh;
+margin-top: 90px;
+display: flex;
 align-items: center;
 justify-content: space-evenly;
+background: pink;
 flex-wrap: wrap;
+padding: px;
+
   }
 `
 
