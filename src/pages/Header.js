@@ -17,7 +17,7 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 width:100%;  
-height:95vh;
+height:90vh;
 margin: auto;
 `
 
@@ -41,8 +41,8 @@ cursor: pointer;
   font-size: 1em;
   position: absolute;
   top: 20vw;
-  right: 45vw;
-  width: 50%;
+  right: 25vw;
+  width: 70%;
   }
 `
 

@@ -35,13 +35,12 @@ margin: auto;
 @media(max-width: 730px){
   font-size: 1.1em;
   height: 18vh;
-  margin-bottom: 3px;
 }
 
 `;
 const ParagrafoText = styled.p`
 color: black;
-height: 19vh;
+height: 15vh;
 width: 90%;
 font-family: Roboto, sans-serif;
 font-size: 1em;
@@ -49,7 +48,7 @@ margin: auto;
 
 @media(max-width: 770px){
   font-size: 0.8em;
-  margin-top: 25px;
+  margin-bottom: 40px;
 }
 `
 
@@ -64,14 +63,11 @@ flex-wrap: wrap;
 
 @media(max-width: 805px){
 width: 100%;
-height: 195vh;
-margin-top: 90px;
+height: 110vh;
 display: flex;
 align-items: center;
 justify-content: space-evenly;
-background: pink;
 flex-wrap: wrap;
-padding: px;
 
   }
 `
