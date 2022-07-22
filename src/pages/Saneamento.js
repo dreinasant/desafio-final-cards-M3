@@ -18,6 +18,11 @@ margin: auto;
 
 const ImageSaneamento = styled.img`
 width: 30%;
+
+@media(max-width: 730px){
+    width: 21%;
+    margin-right: 4vw;
+  }
 `
 
 const Div = styled.div`
@@ -29,9 +34,16 @@ justify-content: space-around;
 const ContainerInformacoes = styled.div`
 display: flex;
 flex-direction: column;
+
+@media(max-width: 730px){
+    margin-left: 5vw;
+  }
 `
 const PText = styled.p`
 color: white;
+@media(max-width: 770px){
+    width: 125%;
+  }
 `
 const PNumberSix = styled.p`
 color: white;
@@ -45,12 +57,21 @@ color: white;
 font-family: "Roboto", sans-serif;
 font-size: 2em;
 width: 35%;
+@media(max-width: 770px){
+    width: 110%;
+  }
 `
 const ParagrafoText = styled.p`
 color: white;
 font-size: 1rem;
 line-height: 1.5rem;
 width: 60%;
+
+@media(max-width: 770px){
+    font-size: 0.9em;
+    margin-top: 30px;
+    width: 120%;
+  }
 `
 
 const BoxObjetivos = styled.div`
@@ -60,6 +81,10 @@ display: flex;
 align-items: center;
 flex-direction: column;
 margin-left: 8vw;
+
+@media(max-width: 730px){
+    width: 94%;
+  }
 `
 const TextH2 = styled.h2`
 padding: 2vh;

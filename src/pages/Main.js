@@ -35,7 +35,7 @@ margin: auto;
 @media(max-width: 730px){
   font-size: 1.1em;
   height: 18vh;
-  margin-bottom: 3vh;
+  margin-bottom: 3px;
 }
 
 `;
@@ -47,9 +47,9 @@ font-family: Roboto, sans-serif;
 font-size: 1em;
 margin: auto;
 
-@media(max-width: 650px){
+@media(max-width: 770px){
   font-size: 0.9em;
-  margin-bottom: 17vh;
+  margin-top: 30px;
 }
 `
 
@@ -65,6 +65,11 @@ flex-wrap: wrap;
 @media(max-width: 805px){
   width: 100%;
   height: 105vh;
+  margin-top: 80px;
+  display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
   }
 `
 

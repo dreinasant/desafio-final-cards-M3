@@ -18,6 +18,11 @@ justify-content: space-around;
 const ImageEducacao = styled.img`
 width: 37%;
 padding: vw; 
+
+@media(max-width: 730px){
+    width: 20%;
+    margin-right: 4vw;
+  }
 `
 
 const Div = styled.div`
@@ -31,9 +36,16 @@ width: 90%;
 const ContainerInformacoes = styled.div`
 display: flex;
 flex-direction: column;
+
+@media(max-width: 730px){
+    margin-left: 4vw;
+  }
 `
 const PText = styled.p`
 color: white;
+@media(max-width: 730px){
+    width: 120%;
+  }
 `
 const PNumberFour = styled.p`
 color: white;
@@ -52,6 +64,10 @@ color: white;
 font-size: 1rem;
 line-height: 1.5rem;
 width: 55%;
+
+@media(max-width: 730px){
+    width: 130%;
+  }
 `
 
 const BoxObjetivos = styled.div`
@@ -61,6 +77,10 @@ display: flex;
 align-items: center;
 flex-direction: column;
 margin-left: 8vw;
+
+@media(max-width: 730px){
+    width: 94%;
+  }
 `
 const TextH2 = styled.h2`
 padding: 2vh;

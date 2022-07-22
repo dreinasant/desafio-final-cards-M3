@@ -16,6 +16,11 @@ align-items: center;
 
 const ImageIgualdade = styled.img`
 width: 33%;
+
+@media(max-width: 730px){
+    width: 24%;
+    margin-right: 4vw;
+  }
 `
 
 const Div = styled.div`
@@ -30,9 +35,16 @@ const ContainerInformacoes = styled.div`
 display: flex;
 flex-direction: column;
 
+@media(max-width: 730px){
+    margin-left: 4vw;
+  }
+
 `
 const PText = styled.p`
 color: white;
+@media(max-width: 770px){
+    width: 125%;
+  }
 `
 const PNumberFive = styled.p`
 color: white;
@@ -51,6 +63,12 @@ color: white;
 font-size: 1rem;
 line-height: 1.5rem;
 width: 75%;
+
+@media(max-width: 770px){
+    font-size: 0.9em;
+    margin-top: 30px;
+    width: 130%;
+  }
 `
 
 const BoxObjetivos = styled.div`
@@ -60,6 +78,10 @@ display: flex;
 align-items: center;
 flex-direction: column;
 margin-left: 8vw;
+
+@media(max-width: 730px){
+    width: 94%;
+  }
 `
 const TextH2 = styled.h2`
 padding: 2vh;

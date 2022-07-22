@@ -73,7 +73,7 @@ flex-direction: column;
 margin-left: 8vw;
 
 @media(max-width: 730px){
-    width: 90%;
+    width: 95%;
   }
 
 `
